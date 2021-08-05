@@ -1,0 +1,11 @@
+Pasos para realizar el proyecto:
+
+1. Descargar el fichero Google-Playstore.csv
+2. Dar permisos de ejecución a instalar_R.script y limpieza_R.script
+	$ chmod +x instalar_R.script && chmod +x limpieza_R.script
+3. Ejecutar instalar_R.script con sudo
+	$ sudo ./instalar_R.script
+4. Ejecutar limpieza_R.script
+	$ ./limpieza_R.script
+5. La salida será un csv ya limpio con el que se puede trabajar, "Salida.csv"
+6. Ejecutamos los diferentes scripts que tenemos en pyspark para obtener datos y estudiar el csv
